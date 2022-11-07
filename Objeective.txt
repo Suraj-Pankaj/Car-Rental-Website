@@ -1,0 +1,10 @@
+Primary Objective - To develop a website offering car renting services.
+
+The car rental project is yet another free PHP project that you can use to learn PHP programming. Car rentals are useful for people who either don’t have personal vehicles or have their car damaged or under repairs, etc.
+
+The users of the car rental project are divided into three groups:
+
+Admin - Users responsible for managing car rental services.
+Registered users - Users who have already registered on the website.
+Guest users - Users that are visiting the website without any registration.
+In addition to PHP, the project leverages AJAX, Bootstrap, and jQuery.

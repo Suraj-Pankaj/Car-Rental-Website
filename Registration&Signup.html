@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register & Signup</title>
+    <link rel="stylesheet" href="registrationstyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <a href="index.html"><img src="./Images/SAS 3.gif" alt="" /></a>
+        </div>
+    </header>
+    <form method="post" action="http://localhost/MWA/registrationform.php">
+        <h1 class="main_heading"> Registration Form</h1>
+        <div class="register">
+            <p>Name: <input type="text" name="name" id="name" /></p>
+            <p>Gender : * </p>
+            <fieldset>
+                <p>
+                    Male
+                    <input type="radio" name="gender" id="male" value="Male" required />
+                    Female
+                    <input type="radio" name="gender" id="Female" value="Female" required />
+                </p>
+            </fieldset>
+            <br>
+            <p>
+                Address:
+                <textarea name="address" id="address" cols="10" rows="10" placeholder="Enter Your Address"></textarea>
+            </p>
+            <p>
+                Email: *<input type="email" name="email" id="email" required placeholder="abc123@gmail.com" />
+            </p>
+            <p>Password *<input type="password" name="pass" id="pass" required placeholder="***"></p>
+            <input type="submit" value="Register" onclick="validate()">
+        </div>
+    </form>
+</body>
+
+</html>
